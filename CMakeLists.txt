@@ -49,6 +49,8 @@ option(MSVC_STHREADED_RT "MSVC: Build with single-threaded static runtime libs (
 ### Sources, headers, directories and libs
 ###
 
+set(LIBRARY_OUTPUT_PATH    "${CMAKE_SOURCE_DIR}/lib")
+
 # From http://www.cmake.org/pipermail/cmake/2010-March/035992.html:
 # function to collect all the sources from sub-directories
 # into a single list
